@@ -334,7 +334,7 @@
 		(uuid "14a52d2d-1b3f-469c-a197-672e54855930")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/ic/QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm.step"
+	(model "${KIPRJMOD}/../libs/models/generic/QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -191,7 +191,7 @@
 		(uuid "285427d4-ffaf-4901-837a-2c531e2e11f8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/ic/SOT-23-5.step"
+	(model "${KIPRJMOD}/../libs/models/generic/SOT-23-5.step"
 		(offset
 			(xyz 0 0 0)
 		)

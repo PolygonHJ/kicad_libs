@@ -295,7 +295,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/KXOB25-05X3F_IXY.step"
+	(model "${KIPRJMOD}/../libs/models/part_specific/ANYSOLAR_KXOB25.step"
 		(offset
 			(xyz 0 0 0)
 		)

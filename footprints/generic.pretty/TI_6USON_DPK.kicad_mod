@@ -205,7 +205,7 @@
 		(uuid "5ea7758a-f101-495e-b3c9-cf9151741b32")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/ic/TI_6USON_DPK.step"
+	(model "${KIPRJMOD}/../libs/models/generic/TI_6USON_DPK.step"
 		(offset
 			(xyz 0 0 0)
 		)

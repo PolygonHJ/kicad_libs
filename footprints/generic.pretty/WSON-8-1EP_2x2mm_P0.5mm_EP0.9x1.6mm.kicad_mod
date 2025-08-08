@@ -232,7 +232,7 @@
 		(uuid "e5195b56-c202-4580-9277-4e06eeb5871c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/ic/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
+	(model "${KIPRJMOD}/../libs/models/generic/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
