@@ -470,15 +470,15 @@
 		(uuid "143f7ed4-69ce-49c4-9fa5-8b9e600e7bf6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/XIAO-NRF54L15.step"
+	(model "${KIPRJMOD}/../libs/models/part_specific/XIAO-NRF54L15_NoText.step"
 		(offset
-			(xyz 0.08 1.43 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
