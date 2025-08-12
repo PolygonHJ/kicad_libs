@@ -56,6 +56,14 @@
 				(hide yes)
 			)
 		)
+		(property "Short" "O/C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "solder jumper SPST"
 			(at 0 0 0)
 			(effects
@@ -237,6 +245,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Short12" "Short12"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short23" "Short23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "Solder Jumper SPDT"
