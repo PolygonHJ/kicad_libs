@@ -10,8 +10,9 @@
 		(uuid "59d216d4-d656-4fc1-8631-584e423df387")
 		(effects
 			(font
-				(size 0.635 0.635)
-				(thickness 0.1016)
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 		)
 	)
@@ -347,7 +348,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../libs/models/part_specific/XIAO-NRF54L15_NoText.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.03 0)
 		)
 		(scale
 			(xyz 1 1 1)

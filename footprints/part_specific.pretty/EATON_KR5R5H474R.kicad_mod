@@ -6,7 +6,7 @@
 	(descr "KR-5R5H474-R-3")
 	(tags "Capacitor Polarised")
 	(property "Reference" "C**"
-		(at -5.694 0 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "35e1dbb4-720a-48d6-a3a7-695cb48a3d2a")
 		(effects
@@ -54,8 +54,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -10.5 -2)
-		(end -9.5 -2)
+		(start 2.85 -1.75)
+		(end 3.85 -1.75)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -64,8 +64,8 @@
 		(uuid "e438cf68-9532-42b5-8d0d-819cd355786c")
 	)
 	(fp_line
-		(start -10 -1.5)
-		(end -10 -2.5)
+		(start 3.35 -1.25)
+		(end 3.35 -2.25)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -74,18 +74,18 @@
 		(uuid "6f9ace30-0857-4f2a-adb4-5eca232ca309")
 	)
 	(fp_line
-		(start -0.786858 -1)
-		(end 0.9 -1)
+		(start -7.5 1.000002)
+		(end -7.5 -0.999998)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "45473cff-125e-425c-a37d-3533fb89feb7")
+		(uuid "75bb479c-41e8-4304-98e1-eda78e9f3a72")
 	)
 	(fp_line
-		(start -0.786858 1.000004)
-		(end 0.9 1)
+		(start -5.662645 -0.999995)
+		(end -7.5 -0.999998)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,92 +94,61 @@
 		(uuid "113cc55a-74ff-4b41-b4f8-e57dd3551a31")
 	)
 	(fp_line
-		(start 0.9 -1)
-		(end 0.9 1)
+		(start -5.662645 0.999998)
+		(end -7.5 1.000002)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "75bb479c-41e8-4304-98e1-eda78e9f3a72")
+		(uuid "45473cff-125e-425c-a37d-3533fb89feb7")
 	)
 	(fp_arc
-		(start -6.5 -5.8)
-		(mid -2.769918 -4.441451)
-		(end -0.787249 -1.002237)
+		(start -5.662645 -1)
+		(mid -3.695625 -4.405441)
+		(end 0 -5.75)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6dcfd62b-a505-4f1f-b6c1-ccea36fde5e7")
+		(uuid "90ae1328-d680-4909-b927-94c1354534c1")
 	)
 	(fp_arc
-		(start -6.5 5.8)
-		(mid -12.3 0)
-		(end -6.5 -5.8)
+		(start 0 -5.75)
+		(mid 5.75 0)
+		(end 0 5.75)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "df4a7dac-085c-469f-a967-5c910259fb96")
 	)
 	(fp_arc
-		(start -0.786858 1.000004)
-		(mid -2.76905 4.440723)
-		(end -6.5 5.800002)
+		(start 0 5.75)
+		(mid -3.695454 4.405238)
+		(end -5.662645 1)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "90ae1328-d680-4909-b927-94c1354534c1")
+		(uuid "6dcfd62b-a505-4f1f-b6c1-ccea36fde5e7")
 	)
-	(fp_line
-		(start -6.5 -5.75)
-		(end -6.5 -5.75)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c8351601-60a6-44f5-8e59-cdcd99193ecb")
-	)
-	(fp_line
-		(start -6.5 5.75)
-		(end -6.5 5.75)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d954d6d7-30db-4263-9477-c5f3a35fcc19")
-	)
-	(fp_arc
-		(start -6.5 -5.75)
-		(mid -0.75 0)
-		(end -6.5 5.75)
+	(fp_circle
+		(center 0 0)
+		(end -5.75 0)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "fc89be25-6816-43af-b883-b883bcb1685c")
-	)
-	(fp_arc
-		(start -6.5 5.75)
-		(mid -12.25 0)
-		(end -6.5 -5.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "00e72775-36cb-44ff-8b12-5c879aca7f03")
+		(uuid "0e441b9c-450b-48e4-9449-0edc1f7c1cbc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5.694 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "950b8e10-19f8-45a6-9f6d-ea667d5d2e8f")
 		(effects
@@ -189,32 +158,44 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at -10 0)
-		(size 1.725 1.725)
-		(drill 1.15)
+	(pad "1" thru_hole rect
+		(at 3.35 0)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2bb407cf-ecc1-4eef-9f50-82d0ed486e0d")
+		(uuid "4d8b63a0-2bc1-477e-a5b1-efd1f7baccb2")
 	)
 	(pad "2" thru_hole circle
-		(at 0 0)
-		(size 1.725 1.725)
-		(drill 1.15)
+		(at -6.65 0)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b29aa046-8d45-4dae-a8a5-05a618589833")
+		(uuid "973d0d2b-f1a3-4f53-9c60-cae403513415")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../libs/models/part_specific/EATON_KR5R5H474R.step"
+		(hide yes)
 		(offset
-			(xyz -6.64 0 4.63)
+			(xyz 0 0 4.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 90)
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/../libs/models/part_specific/EATON_KR5R5H474R_ShortLead.step"
+		(offset
+			(xyz 0 0 4.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
 		)
 	)
 )
