@@ -1,0 +1,162 @@
+(footprint "COMUS_RI80SMDM0510G1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RI80SMDM-0510-G1")
+	(tags "Switch")
+	(property "Reference" "SW**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "9edb48f0-09c1-46c5-8c25-037988e82431")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "COMUS_RI80SMDM0510G1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1fe08c94-7489-4e92-9524-a77a2caaf6eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://comus-intl.com/wp-content/uploads/2017/04/RI-80SMDM.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e627af7-21c2-4214-9e13-da0ba5c373b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091d82ac-1708-47dc-be3c-6bd8d52d1f5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -1.15)
+		(end 3.2 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c001d7a4-1ed2-40dc-9518-ad970735b8dc")
+	)
+	(fp_line
+		(start -3.2 1.15)
+		(end 3.2 1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb4b3a5a-247b-43d6-8c9e-01b744e240eb")
+	)
+	(fp_rect
+		(start -5.5 -1.5)
+		(end 5.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3d557226-46f5-49b4-96ba-b516eb759ed2")
+	)
+	(fp_line
+		(start -3.2 -1.15)
+		(end 3.2 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cb191d5-30fb-4233-9453-6ee48c0276fe")
+	)
+	(fp_line
+		(start -3.2 1.15)
+		(end -3.2 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15a01869-fb36-4da3-8617-c7742c1a1d58")
+	)
+	(fp_line
+		(start 3.2 -1.15)
+		(end 3.2 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecb72743-ba82-43a6-92d6-17df91ca90dc")
+	)
+	(fp_line
+		(start 3.2 1.15)
+		(end -3.2 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1858f512-9be0-4b92-95a8-cab74c79f33b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f78b8f9c-3bb2-43eb-98de-011400c528ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.225 0 90)
+		(size 1.45 2.31)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec07efd6-86b5-4fc7-a9ae-e48c567cf828")
+	)
+	(pad "2" smd rect
+		(at 4.225 0 90)
+		(size 1.45 2.31)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea52ec51-dd11-4549-b173-05ca42c01d6a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libs/models/part_specific/COMUS_RI80SMDM-0510-G1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
