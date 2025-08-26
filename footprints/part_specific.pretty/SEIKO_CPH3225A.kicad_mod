@@ -1,0 +1,230 @@
+(footprint "SEIKO_CPH3225A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.02404 -2 0)
+		(layer "F.SilkS")
+		(uuid "ecf5be94-5e01-4750-b57b-ff440fe86f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SEIKO_CPH3225A"
+		(at 2.767682 1.945537 0)
+		(layer "F.Fab")
+		(uuid "9cb6db80-9013-4bc2-98cd-e3f963110f73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e9558f8-d882-4e77-9cef-51d3bab21802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "810afc97-075e-4067-a7a3-ee4d07e6fd9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44bfa287-a7c7-4d6f-86da-690fde9bc9a6")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d73fe941-50ea-486b-84c7-cb35cb413b36")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6f62e91-0a03-4192-86c4-2363d6cfeb4b")
+	)
+	(fp_line
+		(start 1.6 -1)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2383220-abb9-4d7a-a925-4f36f32337c0")
+	)
+	(fp_line
+		(start 1.6 1)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "821e3d45-7c72-445d-9747-a27cf58711b4")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a24e85-afb5-438f-bf52-5b621d02458e")
+	)
+	(fp_circle
+		(center -2.1 -1.1)
+		(end -1.9 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a68cc295-6b36-497c-9a56-ec25bfc9a9f6")
+	)
+	(fp_line
+		(start -2.05 -1.5)
+		(end 2.05 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47dd9c8a-40d6-4a3a-9240-237b0455974c")
+	)
+	(fp_line
+		(start -2.05 1.5)
+		(end -2.05 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94da3d8b-c6a2-48c4-a4d8-86e46043a901")
+	)
+	(fp_line
+		(start 2.05 -1.5)
+		(end 2.05 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81860c04-9f50-443d-b85e-fbf3aadc401f")
+	)
+	(fp_line
+		(start 2.05 1.5)
+		(end -2.05 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1a52174-408f-4820-b747-b4474c63c28c")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa25c116-51ab-46f3-af74-49ac2c78db24")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6e4e988-db1e-47e3-b76e-1a6734fde847")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c69affa-d068-4d72-9afd-edf6690f6227")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b83a8d78-5772-422f-9b5f-5724d33d80c1")
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "057b0c78-5f3d-4656-8481-b59ac224d490")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "59e4a6c2-56d8-4a62-ae7a-837d9facaa05")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libs/models/part_specific/SEIKO_CPH3225A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
