@@ -1,9 +1,9 @@
-(footprint "COMUS_RI80SMDM0510G1"
+(footprint "COMUS_RI80SMDM0510J1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "RI80SMDM-0510-G1")
+	(descr "RI80SMDM-0510-J1")
 	(tags "Switch")
 	(property "Reference" "SW**"
 		(at 0 -2 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "COMUS_RI80SMDM0510G1"
+	(property "Value" "COMUS_RI80SMDM0510J1"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -74,8 +74,8 @@
 		(uuid "bb4b3a5a-247b-43d6-8c9e-01b744e240eb")
 	)
 	(fp_rect
-		(start -5.5 -1.5)
-		(end 5.5 1.5)
+		(start -4.25 -1.5)
+		(end 4.25 1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -136,19 +136,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -4.225 0 90)
-		(size 1.45 2.31)
+		(at -3.165 0 90)
+		(size 1.45 2.06)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec07efd6-86b5-4fc7-a9ae-e48c567cf828")
 	)
 	(pad "2" smd rect
-		(at 4.225 0 90)
-		(size 1.45 2.31)
+		(at 3.165 0 90)
+		(size 1.45 2.06)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ea52ec51-dd11-4549-b173-05ca42c01d6a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/COMUS_RI80SMDM-0510-G1.step"
+	(model "${KIPRJMOD}/../libs/models/part_specific/COMUS_RI80SMDM-0510-J1.step"
 		(offset
 			(xyz 0 0 0)
 		)
