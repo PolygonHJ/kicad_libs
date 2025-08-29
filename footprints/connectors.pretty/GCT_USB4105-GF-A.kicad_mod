@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "GCT_USB4105-GF-A"
-		(at 5.16 -7.135 0)
+		(at 0 -3.5 0)
 		(layer "F.Fab")
 		(uuid "a72f01d2-a4ae-4baa-99ee-32ae1510c2d0")
 		(effects
@@ -260,7 +260,7 @@
 		(start -4.47 -4.75)
 		(end 4.47 -4.75)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -270,7 +270,7 @@
 		(start -4.47 2.6)
 		(end -4.47 -4.75)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -280,7 +280,7 @@
 		(start 4.47 -4.75)
 		(end 4.47 2.6)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -290,7 +290,7 @@
 		(start 4.47 2.6)
 		(end -4.47 2.6)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -315,6 +315,18 @@
 			(font
 				(size 0.32 0.32)
 				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51cf4e0b-5a5a-40e0-894e-ddc707b15c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -1,10 +1,10 @@
-(footprint "WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+(footprint "TI_8WSON_DSG"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf")
-	(tags "WSON 8 1EP")
+	(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8")
+	(tags "TI 8WSON")
 	(property "Reference" "REF**"
 		(at 0.38 -1.9 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+	(property "Value" "TI_8WSON_DSG"
 		(at 0.01 2.14 0)
 		(layer "F.Fab")
 		(uuid "287094cd-11a5-4e8c-a807-d8128c586c74")
@@ -55,35 +55,64 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.5 -1.1)
-		(end 0.5 -1.1)
+		(start -1.45 1.25)
+		(end -1.45 0.75)
 		(stroke
 			(width 0.15)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "33f8265c-f1e4-430b-aa4d-de7305fd1997")
+		(uuid "99eb6970-080c-4a06-aa7b-c569a1b8cea6")
 	)
 	(fp_line
-		(start -0.5 1.1)
-		(end 0.5 1.1)
+		(start -0.95 1.25)
+		(end -1.45 1.25)
 		(stroke
 			(width 0.15)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f579bb5c-03a7-48c3-b460-e8c1f37eab03")
+		(uuid "c729a9a9-8508-4bdc-9920-840ca64dd76f")
 	)
-	(fp_circle
-		(center -0.95 -1.3)
-		(end -0.75 -1.3)
+	(fp_line
+		(start 0.95 -1.25)
+		(end 1.45 -1.25)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
-		(fill yes)
 		(layer "F.SilkS")
-		(uuid "cf99275e-6a9b-43dd-a955-440bb5623c7c")
+		(uuid "ae672cd7-44c0-4ba4-ba69-18c8faeae968")
+	)
+	(fp_line
+		(start 1.45 -1.25)
+		(end 1.45 -0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad665a54-4245-43cf-b91c-3659b8b730a8")
+	)
+	(fp_line
+		(start 1.45 0.75)
+		(end 1.45 1.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b7e07fc-6059-40e3-b12a-af859cf4d2bd")
+	)
+	(fp_line
+		(start 1.45 1.25)
+		(end 0.95 1.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2254cf3a-160a-4079-b1cf-1e9d73a8fc0a")
 	)
 	(fp_rect
 		(start -1.35 -1.2)
@@ -96,55 +125,27 @@
 		(layer "F.CrtYd")
 		(uuid "8d236c74-cdd7-4ee3-af46-57c9de4f053c")
 	)
-	(fp_line
-		(start -1 1)
-		(end -1 -0.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e4d8836a-010e-4f41-987f-db706dd782a6")
-	)
-	(fp_line
-		(start -0.5 -1)
-		(end -1 -0.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1d6fcf7f-b587-44bb-b038-32542227617f")
-	)
-	(fp_line
-		(start -0.5 -1)
-		(end 1 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "315ccec6-b446-46c6-81fd-d183060fd457")
-	)
-	(fp_line
-		(start 1 -1)
+	(fp_rect
+		(start -1 -1)
 		(end 1 1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "ef0104be-56f5-4b11-8413-c5f6516ccc59")
+		(uuid "4e931b9f-07f9-498e-83e0-d14c864a3162")
 	)
-	(fp_line
-		(start 1 1)
-		(end -1 1)
+	(fp_circle
+		(center -1.65 -0.75)
+		(end -1.45 -0.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.Fab")
-		(uuid "d40ffa3e-7cec-478e-af43-399c507434ba")
+		(uuid "2e603983-8ee1-42e8-a84c-84f7fb4d3df4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -152,8 +153,8 @@
 		(uuid "085fa65b-f7b5-46fa-8064-2e077c178ce9")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -232,7 +233,7 @@
 		(uuid "e5195b56-c202-4580-9277-4e06eeb5871c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
+	(model "${KIPRJMOD}/../libs/models/generic/TI_8WSON_DSG.step"
 		(offset
 			(xyz 0 0 0)
 		)

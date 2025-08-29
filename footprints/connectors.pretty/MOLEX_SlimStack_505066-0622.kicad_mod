@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "MOLEX_SlimStack_505066-0622"
-		(at 0 -0.0254 0)
+		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9d99f41f-3693-4182-8896-f23c3f0f2a43")

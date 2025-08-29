@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "TI_6USON_DNP"
-		(at 7.34 2.185 0)
+		(at 0 2 0)
 		(layer "F.Fab")
 		(uuid "b3889430-019a-4193-b81c-b13f4fb27ec2")
 		(effects
@@ -254,35 +254,64 @@
 		(uuid "cd5960bd-f45a-46a2-b277-01dbf33aa3a8")
 	)
 	(fp_line
-		(start -0.7 1.1)
-		(end 0.7 1.1)
+		(start -1.45 1.25)
+		(end -1.45 0.75)
 		(stroke
 			(width 0.15)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "855d2b95-af59-4e52-89bb-48ac1b986787")
+		(uuid "c12727b3-b574-4280-aec2-77af218658e9")
 	)
 	(fp_line
-		(start 0.7 -1.1)
-		(end -0.7 -1.1)
+		(start -0.95 1.25)
+		(end -1.45 1.25)
 		(stroke
 			(width 0.15)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "dc4a916b-08ca-4778-b220-3919794a96f8")
+		(uuid "3808a273-2542-45f8-8d28-dce5bebd7ec6")
 	)
-	(fp_circle
-		(center -1.85 -1.25)
-		(end -1.65 -1.25)
+	(fp_line
+		(start 0.95 -1.25)
+		(end 1.45 -1.25)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
-		(fill yes)
 		(layer "F.SilkS")
-		(uuid "4c4a765e-f0fb-439b-8a98-8955ef28e9ca")
+		(uuid "1f0ab017-60a4-4a28-b2e0-a888ff3b26ff")
+	)
+	(fp_line
+		(start 1.45 -1.25)
+		(end 1.45 -0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7d5618c-0014-4dad-a675-8c6560988be7")
+	)
+	(fp_line
+		(start 1.45 0.75)
+		(end 1.45 1.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fba9626e-d7f7-40b4-9068-12727a2435df")
+	)
+	(fp_line
+		(start 1.45 1.25)
+		(end 0.95 1.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd0ce17-5e71-4693-a1e7-cfc2434dd604")
 	)
 	(fp_poly
 		(pts
@@ -336,45 +365,16 @@
 		(layer "F.CrtYd")
 		(uuid "56a330fa-b372-4858-a628-c417a131cf95")
 	)
-	(fp_line
+	(fp_rect
 		(start -1 -1)
-		(end -1 1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6e389827-844b-4533-b8a7-749224edfb0f")
-	)
-	(fp_line
-		(start -1 1)
 		(end 1 1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "ca246b74-8d10-44da-bd21-2cf2b9f7cab7")
-	)
-	(fp_line
-		(start 1 -1)
-		(end -1 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "464b4bc8-5489-46e4-8e43-07f58f1658a6")
-	)
-	(fp_line
-		(start 1 1)
-		(end 1 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "212d4837-c4ed-4a23-a9db-3a49dedd08e5")
+		(uuid "7f2674b9-4fbc-49ea-a8fc-985597fe45dd")
 	)
 	(fp_circle
 		(center -1.85 -1.25)
@@ -386,6 +386,18 @@
 		(fill yes)
 		(layer "F.Fab")
 		(uuid "56180c09-4597-4f29-ae1c-786f7f488449")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87c6c4e9-e9d7-4cea-bd7c-d06c06f6903f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" smd oval
 		(at -0.95 -0.65)
