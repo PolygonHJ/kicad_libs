@@ -246,7 +246,7 @@
 		(uuid "222af013-a3b2-4ea6-835d-cf6bab2d2eb0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/connectors/PinHeader_1x04_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/libs/models/connectors/PinHeader_1x04_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -230,7 +230,7 @@
 		(uuid "129ee373-1127-4891-8bde-d89cc05658e2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/NX_6SOT1202.step"
+	(model "${KIPRJMOD}/libs/models/generic/NX_6SOT1202.step"
 		(offset
 			(xyz -0.875 0.25 0.5)
 		)

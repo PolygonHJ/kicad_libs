@@ -245,7 +245,7 @@
 		(uuid "88d77be1-55dc-428a-947f-21d0e8004d95")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/TI_HDC2022DEPR.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/TI_HDC2022DEPR.step"
 		(offset
 			(xyz 0 0 0)
 		)

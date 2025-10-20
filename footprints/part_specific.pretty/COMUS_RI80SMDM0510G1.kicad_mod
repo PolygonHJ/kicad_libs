@@ -148,7 +148,7 @@
 		(uuid "ea52ec51-dd11-4549-b173-05ca42c01d6a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/COMUS_RI80SMDM-0510-G1.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/COMUS_RI80SMDM-0510-G1.step"
 		(offset
 			(xyz 0 0 0)
 		)

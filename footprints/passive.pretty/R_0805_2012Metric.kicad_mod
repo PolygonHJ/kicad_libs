@@ -118,7 +118,7 @@
 		(uuid "58ad28cf-b96f-4238-8e59-7b14bc3efb59")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/passive/R_0805_2012Metric.step"
+	(model "${KIPRJMOD}/libs/models/passive/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

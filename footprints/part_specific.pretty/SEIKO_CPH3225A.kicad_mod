@@ -216,7 +216,7 @@
 		(uuid "59e4a6c2-56d8-4a62-ae7a-837d9facaa05")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/SEIKO_CPH3225A.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/SEIKO_CPH3225A.step"
 		(offset
 			(xyz 0 0 0)
 		)

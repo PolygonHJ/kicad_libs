@@ -497,7 +497,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/Ezurio-NRF54L15.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/Ezurio-NRF54L15.step"
 		(offset
 			(xyz 5 -7 0.4)
 		)

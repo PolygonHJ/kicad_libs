@@ -442,7 +442,7 @@
 		(uuid "c0df3f37-01b5-492e-946c-76ad38638b98")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/TI_6USON_DNP.step"
+	(model "${KIPRJMOD}/libs/models/generic/TI_6USON_DNP.step"
 		(offset
 			(xyz 0 0 0)
 		)

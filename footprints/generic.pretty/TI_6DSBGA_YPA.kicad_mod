@@ -198,7 +198,7 @@
 		(uuid "2a26dce8-bbe8-4986-b6e8-c0711f7b4969")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/TI_6DSBGA_YPA.step"
+	(model "${KIPRJMOD}/libs/models/generic/TI_6DSBGA_YPA.step"
 		(offset
 			(xyz 0 0 0)
 		)

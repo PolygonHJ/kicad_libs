@@ -330,7 +330,7 @@
 		(uuid "79106ba3-df1b-48b9-9817-52802e8fdce4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/PD_801-83-002-20-001101_ShortLead.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/PD_801-83-002-20-001101_ShortLead.step"
 		(offset
 			(xyz 0 -2.54 0)
 		)

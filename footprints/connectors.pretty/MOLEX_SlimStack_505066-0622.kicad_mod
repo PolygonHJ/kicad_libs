@@ -268,7 +268,7 @@
 		(uuid "81835935-fb2d-4e35-861b-17356b1b31ba")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/connectors/SlimStack_5050660622.step"
+	(model "${KIPRJMOD}/libs/models/connectors/SlimStack_5050660622.step"
 		(offset
 			(xyz 0 0 0)
 		)

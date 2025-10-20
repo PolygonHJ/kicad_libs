@@ -330,7 +330,7 @@
 		(uuid "79106ba3-df1b-48b9-9817-52802e8fdce4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/connectors/SSA-102-W-T-RA.step"
+	(model "${KIPRJMOD}/libs/models/connectors/SSA-102-W-T-RA.step"
 		(offset
 			(xyz 7.05 -1.27 1.27)
 		)

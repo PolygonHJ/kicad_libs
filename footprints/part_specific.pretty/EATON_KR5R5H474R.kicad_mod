@@ -175,7 +175,7 @@
 		(uuid "973d0d2b-f1a3-4f53-9c60-cae403513415")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/EATON_KR5R5H474R.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/EATON_KR5R5H474R.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 4.6)
@@ -187,7 +187,7 @@
 			(xyz -90 -0 -90)
 		)
 	)
-	(model "${KIPRJMOD}/../libs/models/part_specific/EATON_KR5R5H474R_ShortLead.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/EATON_KR5R5H474R_ShortLead.step"
 		(offset
 			(xyz 0 0 4.6)
 		)

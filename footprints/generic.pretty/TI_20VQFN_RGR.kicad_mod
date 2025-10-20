@@ -333,7 +333,7 @@
 		(uuid "14a52d2d-1b3f-469c-a197-672e54855930")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/TI_20VQFN_RGR.step"
+	(model "${KIPRJMOD}/libs/models/generic/TI_20VQFN_RGR.step"
 		(offset
 			(xyz 0 0 0)
 		)

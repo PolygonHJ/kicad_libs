@@ -203,7 +203,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/part_specific/TY_Inductor_NRS4012.step"
+	(model "${KIPRJMOD}/libs/models/part_specific/TY_Inductor_NRS4012.step"
 		(offset
 			(xyz 0 0 0)
 		)

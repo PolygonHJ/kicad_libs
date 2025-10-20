@@ -464,7 +464,7 @@
 		(uuid "88fc8c5e-a0a3-47d7-8dae-87cda669d443")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/connectors/USB4105-GF-A.step"
+	(model "${KIPRJMOD}/libs/models/connectors/USB4105-GF-A.step"
 		(offset
 			(xyz 0 0 0)
 		)

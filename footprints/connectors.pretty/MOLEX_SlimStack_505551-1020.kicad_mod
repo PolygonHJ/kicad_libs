@@ -319,7 +319,7 @@
 		(uuid "dbc2a16f-0573-49c3-a46a-196d813c7e5e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/connectors/SlimStack_5055511020.step"
+	(model "${KIPRJMOD}/libs/models/connectors/SlimStack_5055511020.step"
 		(offset
 			(xyz 0 0 0)
 		)

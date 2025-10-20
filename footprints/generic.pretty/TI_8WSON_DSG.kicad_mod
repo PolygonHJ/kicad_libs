@@ -233,7 +233,7 @@
 		(uuid "e5195b56-c202-4580-9277-4e06eeb5871c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libs/models/generic/TI_8WSON_DSG.step"
+	(model "${KIPRJMOD}/libs/models/generic/TI_8WSON_DSG.step"
 		(offset
 			(xyz 0 0 0)
 		)
